@@ -78,6 +78,7 @@ class Bill:
 phone_bill = Bill('May', 15.00)
 phone_bill.calls.append(Call(datetime(2024, 5, 17, 12, 00), 15, 'local'))
 phone_bill.calls.append(Call(datetime(2024, 5, 18, 18, 30), 5, 'local'))
+phone_bill.calls.append(Call(datetime(2024, 5, 19, 00, 30), 10, 'local'))
 phone_bill.calls.append(Call(datetime(2024, 5, 16, 7, 10), 30, 'national', 'locality1'))
 phone_bill.calls.append(Call(datetime(2024, 5, 15, 15, 40), 21, 'national', 'locality3'))
 phone_bill.calls.append(Call(datetime(2024, 5, 11, 3, 00), 45, 'international', 'country2'))
